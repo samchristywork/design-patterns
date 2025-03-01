@@ -22,3 +22,9 @@ run: all
 		echo "=== $$bin ==="; \
 		./$$bin; \
 	done
+
+# Individual run targets: e.g. `make run-bridge` or `make run-chain_of_responsibility`
+run-%: all
+	@bin=$$(find build -name '$*' -type f); \
+	if [ -z "$$bin" ]; then echo "Unknown target: $*"; exit 1; fi; \
+	echo "=== $$bin ===" && ./$$bin
