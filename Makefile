@@ -28,3 +28,6 @@ run-%: all
 	@bin=$$(find build -name '$*' -type f); \
 	if [ -z "$$bin" ]; then echo "Unknown target: $*"; exit 1; fi; \
 	echo "=== $$bin ===" && ./$$bin
+
+clean:
+	rm -rf build/
