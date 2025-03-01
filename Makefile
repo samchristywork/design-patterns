@@ -15,3 +15,10 @@ build/%.o: %.cpp
 build/%: %.cpp
 	@mkdir -p $(dir $@)
 	$(CXX) $(CXXFLAGS) $< -o $@
+
+run: all
+	@for bin in $(BINS); do \
+		echo ""; \
+		echo "=== $$bin ==="; \
+		./$$bin; \
+	done
