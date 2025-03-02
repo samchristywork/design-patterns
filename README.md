@@ -2,6 +2,12 @@
 
 ## Overview
 
+This repository contains implementations of all 23 classic Gang of Four (GoF)
+design patterns in C++17. Each pattern is implemented as a self-contained
+example in its own `.cpp` file, organized into the three canonical categories:
+creational, structural, and behavioral. The examples use realistic scenarios to
+illustrate how and why each pattern is applied.
+
 ## Patterns
 
 ## Usage
