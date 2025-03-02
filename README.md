@@ -38,6 +38,24 @@ objects to form larger structures.
 | Flyweight | Uses sharing to efficiently support large numbers of fine-grained objects |
 | Proxy | Provides a surrogate to control access to another object |
 
+### Behavioral
+
+These patterns deal with communication and responsibility between objects.
+
+| Pattern | Description |
+|---|---|
+| Chain of Responsibility | Passes requests along a chain of handlers |
+| Command | Encapsulates a request as an object, enabling undo/redo |
+| Interpreter | Defines a grammar and an interpreter for a language |
+| Iterator | Provides sequential access to elements without exposing the underlying structure |
+| Mediator | Centralizes communication between objects to reduce coupling |
+| Memento | Captures and restores an object's internal state |
+| Observer | Notifies dependents automatically when an object changes state |
+| State | Alters an object's behavior when its internal state changes |
+| Strategy | Defines a family of interchangeable algorithms |
+| Template Method | Defines the skeleton of an algorithm, deferring steps to subclasses |
+| Visitor | Adds operations to objects without modifying them |
+
 ## Usage
 
 ## License
