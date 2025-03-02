@@ -10,6 +10,19 @@ illustrate how and why each pattern is applied.
 
 ## Patterns
 
+### Creational
+
+These patterns deal with object creation mechanisms, aiming to create objects
+in a manner suitable to the situation.
+
+| Pattern | Description |
+|---|---|
+| Abstract Factory | Creates families of related objects without specifying concrete classes |
+| Builder | Separates complex object construction from its representation |
+| Factory Method | Lets subclasses decide which class to instantiate |
+| Prototype | Creates new objects by cloning an existing prototype |
+| Singleton | Ensures a class has only one instance with a global access point |
+
 ## Usage
 
 ## License
