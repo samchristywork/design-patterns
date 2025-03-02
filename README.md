@@ -23,6 +23,21 @@ in a manner suitable to the situation.
 | Prototype | Creates new objects by cloning an existing prototype |
 | Singleton | Ensures a class has only one instance with a global access point |
 
+### Structural
+
+These patterns deal with object composition, creating relationships between
+objects to form larger structures.
+
+| Pattern | Description |
+|---|---|
+| Adapter | Converts one interface into another that clients expect |
+| Bridge | Decouples an abstraction from its implementation |
+| Composite | Composes objects into tree structures for part-whole hierarchies |
+| Decorator | Attaches additional responsibilities to an object dynamically |
+| Facade | Provides a simplified interface to a complex subsystem |
+| Flyweight | Uses sharing to efficiently support large numbers of fine-grained objects |
+| Proxy | Provides a surrogate to control access to another object |
+
 ## Usage
 
 ## License
