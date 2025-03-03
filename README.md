@@ -58,6 +58,40 @@ These patterns deal with communication and responsibility between objects.
 
 ## Usage
 
+Build all examples:
+
+```
+make
+```
+
+Run all examples:
+
+```
+make run
+```
+
+Run a specific pattern:
+
+```
+make run-<pattern>
+# e.g.
+make run-observer
+make run-chain_of_responsibility
+```
+
+Clean build artifacts:
+
+```
+make clean
+```
+
+## Dependencies
+
+```
+g++
+make
+```
+
 ## License
 
 This work is licensed under the GNU General Public License version 3 (GPLv3).
